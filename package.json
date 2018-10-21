@@ -1,0 +1,36 @@
+{
+  "name": "intro-to-styled-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack -d --mode development",
+    "build-prod": "webpack -p --mode production",
+    "start": "webpack-dev-server --hot --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonredmond/intro-to-styled-components.git"
+  },
+  "author": "Jon Redmond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonredmond/intro-to-styled-components/issues"
+  },
+  "homepage": "https://github.com/jonredmond/intro-to-styled-components#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11"
+  }
+}
