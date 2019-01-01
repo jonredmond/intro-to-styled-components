@@ -1,6 +1,6 @@
-# empty-project
+# intro-to-styled-components
 
-Intro to Styled Components
+Introduction to styled-components code-along for backend to frontend training course.
 
 ## Building and running on localhost
 
