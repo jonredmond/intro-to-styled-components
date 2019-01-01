@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { hot } from 'react-hot-loader';
 
 import Button from './components/button';
+import Rotate from './components/rotate';
 import Title from './components/title';
 import Wrapper from './components/wrapper';
 
@@ -33,7 +34,9 @@ class App extends React.Component {
 
     return (
       <Wrapper color={wrapperColor}>
-        <Title color={titleColor}>Hello World</Title>
+        <Rotate>
+          <Title color={titleColor}>Hello World</Title>
+        </Rotate>
         <Button primary onClick={this.changeWrapper}>
           Change Wrapper
         </Button>
