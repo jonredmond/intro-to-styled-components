@@ -1,6 +1,6 @@
 # empty-project
 
-Empty project.
+Intro to Styled Components
 
 ## Building and running on localhost
 
