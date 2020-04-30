@@ -1,4 +1,4 @@
-# empty-project
+# intro-to-styled-components
 
 Empty project.
 
@@ -31,3 +31,7 @@ npm run build-dev
 ## Running
 
 Open the file `dist/index.html` in your browser
+
+## Credits
+
+Made with [createapp.dev](https://createapp.dev/)

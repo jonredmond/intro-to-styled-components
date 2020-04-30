@@ -1,14 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { hot } from 'react-hot-loader'
-
-class App extends React.Component {
-  render() {
-    return <div></div>;
-  }
-}
-
-const AppWithHot = hot(module)(App);
+import App from "./App";
 
 var mountNode = document.getElementById("app");
-ReactDOM.render(<AppWithHot />, mountNode);
+ReactDOM.render(<App />, mountNode);
